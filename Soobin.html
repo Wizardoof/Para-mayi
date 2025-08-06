@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Soobin - TXT Fanpage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    header {
+      background-color: #b4aee8;
+      color: white;
+      padding: 20px;
+    }
+
+    img {
+      max-width: 250px;
+      border-radius: 10px;
+      margin: 10px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 20px;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    iframe {
+      max-width: 90%;
+      height: 315px;
+      margin: 15px 0;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #6c63ff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 20px;
+    }
+
+    footer {
+      background-color: #eee;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    .dark-mode {
+      background-color: #1a1a1a;
+      color: #f2f2f2;
+    }
+
+    .dark-mode header {
+      background-color: #3a3a3a;
+    }
+
+    .dark-mode footer {
+      background-color: #111;
+    }
+
+    .dark-mode button {
+      background-color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Soobin 💜 TXT</h1>
+    <p>Líder, vocalista, visual y nuestro querido conejo ✨</p>
+  </header>
+
+  <button onclick="toggleDarkMode()">🌙 Cambiar tema</button>
+
+  <section>
+    <h2>📋 Datos de Soobin</h2>
+    <ul style="list-style: none; padding: 0; font-size: 18px;">
+      <li><strong>Nombre real:</strong> Choi Soobin</li>
+      <li><strong>Nacimiento:</strong> 5 de diciembre de 2000</li>
+      <li><strong>Edad:</strong> 24 años</li>
+      <li><strong>Altura:</strong> 1.85 m</li>
+      <li><strong>Grupo:</strong> TXT (Tomorrow X Together)</li>
+      <li><strong>Posición:</strong> Líder, vocalista, MC de Music Bank</li>
+      <li><strong>Curiosidades:</strong> Ama a los animales, especialmente a los conejos 🐰</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>📷 Mejores Fotos de Soobin</h2>
+    <div class="gallery">
+      <img src="Soobin1.jpg" alt="Soobin 1">
+      <img src="Soobin2.jpg" alt="Soobin Smiling">
+      <img src="Soobin3.jpg" alt="Soobin Fanmeet">
+    </div>
+  </section>
+
+  <section>
+    <h2>🖼️ Photocards favoritas</h2>
+    <div class="gallery">
+      <img src="Photocard1.jpg" alt="Photocard 1">
+      <img src="Photocard2.jpg" alt="Photocard 2">
+      <img src="Photocard3.jpg" alt="Photocard 3">
+    </div>
+  </section>
+
+  <section>
+    <h2>🎶 Videos musicales oficiales</h2>
+
+    <h3>Blue Hour</h3>
+    <iframe src="https://www.youtube.com/embed/Vd9QkWsd5p4" title="TXT - Blue Hour" allowfullscreen></iframe>
+
+    <h3>수빈 (SOOBIN) 'Sunday Driver' Official MV</h3>
+    <iframe src="https://www.youtube.com/embed/o9thOizwRW4" title="수빈 (SOOBIN) 'Sunday Driver' Official MV" allowfullscreen></iframe>
+
+    <h3>TXT (투모로우바이투게더) 'Deja Vu' Official MV</h3>
+    <iframe src="https://www.youtube.com/embed/DiHUEWBRQEI" title="TXT (투모로우바이투게더) 'Deja Vu' Official MV" allowfullscreen></iframe>
+
+    <h3>TXT (투모로우바이투게더) 'Over The Moon' Official MV</h3>
+    <iframe src="https://www.youtube.com/embed/80SH8Z_DOnY" title="TXT (투모로우바이투게더) 'Over The Moon' Official MV" allowfullscreen></iframe>
+  </section>
+
+  <section>
+    <h2>🎥 Fancam destacada de Soobin</h2>
+    <iframe src="https://www.youtube.com/embed/NTDTHIyNWLk" title="수빈 직캠 'Dolphin' (SOOBIN Fancam)" allowfullscreen></iframe>
+  </section>
+
+  <footer>
+    <p>Fanpage no oficial dedicada a Choi Soobin 💜<br>
+    Hecho con amor por MOA 🐰</p>
+  </footer>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+
+</body>
+</html>
